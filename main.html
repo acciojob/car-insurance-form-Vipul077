@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-<!-- 	<form> -->
+	<form>
 		<label>Name : </label>
 		<input type="text" required id="name"> <br>
 		<label>Email :</label>
@@ -17,17 +17,20 @@
 		<input type="radio" name="gender" value="male">Male
 		<input type="radio" name="gender" value="female">Female<br>
 		<label>Car Brands : </label>
-		<input type="select"><br>
+		<select>
+			<option value="BMW" id="cars">BMW</option>
+			<option value="Audi" id="cars">Audi</option>
+			<option value="Mercedez" id="cars">Mercedez</option>
+		</select><br>
+		<br>
 		<label>Car Age :</label>
-		<option value="BMW" id="cars">BMW</option>
-		<option value="Audi" id="cars">Audi</option>
-		<option value="Mercedez" id="cars">Mercedez</option>
+		<input type="number" id="name" required><br>
 		<label>Date of Purchase :</label>
 		<input type="date" required id="drop"> <br>
 		<label>Password :</label>
-		<input type="password" required type="password">
+		<input type="password" required type="password"><br>
 		<button type="submit">Submit</button>
-<!-- 	</form> -->
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
